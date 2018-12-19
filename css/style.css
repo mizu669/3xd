@@ -1,0 +1,106 @@
+.content-image{
+	display:none;
+}
+.content .content-text{
+	width:100%;
+	background-color:#efefef;
+	color:#000;
+}
+h4.content-title{
+	color:#330000;
+	background:url(http://mizu.890m.com/eonus/images/arr-003.png) no-repeat 0 center;
+	padding:0 0 0 30px;
+}
+.content .content-text img{
+	max-width:300px;
+}
+.content-edit{
+	margin:0 50px;
+}
+.pic-box{
+	display: table;
+	text-align:center;
+	margin:0 auto;
+}
+
+.txt-box{
+	line-height:28px;
+	margin:72px 0 0 0;
+}
+.txt-box .pic-b{
+	float:right;
+	margin:0 0 0 38px;
+}
+.tip-ss {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 20px;
+}
+.tip-ss .red{
+	color:#c00;
+	float: left;
+	font-size: 300%;
+	height: 40px;
+	padding-top:6px;
+}
+/*  cycle  */
+
+.pics { padding:0; margin:0; overflow: hidden }
+.pics img { top:0; left:0; padding:0; margin:0; border:none; }
+.pic{
+	float:left;
+	margin-right:20px;
+	max-width:300px;
+}
+/* RWD */
+@media screen and (min-width: 993px) and (max-width: 1152px) {
+	.content-edit{
+		margin:0px;
+	}
+	.pic{
+		max-width:250px;
+	}
+}
+@media screen and (max-width: 992px){
+	.content-edit{
+		margin:0 auto;
+	}
+	.content .content-text .pics img{
+		/*max-width:99%;*/
+	}
+	.pic{
+		max-width:200px;
+	}
+}
+@media screen and (max-width: 689px){
+	.txt-box{
+		margin:20px 0 0 0;
+	}
+	.pic{
+		max-width:300px;
+	}
+	.txt-box img{
+		float:none;
+		clear:both;
+		margin:0 auto 20px;
+		text-align:center;
+	}
+	.pic{
+		float:none;
+		clear:both;
+		margin:0 auto 20px;
+		display:block;
+	}
+	.txt-box .pic-b{
+		float:none;
+		clear:both;
+		margin:0 auto;
+		text-align:center;
+	}
+}
+/*  info-box 20160728 */
+.content .content-text .info-box img{
+	max-width:none;
+	
+}
